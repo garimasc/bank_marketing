@@ -11,7 +11,7 @@
  However the dataset is highly imbalanced between classes. Only **11.2%** of the customers are in class *'yes'*, who end up subscribing to the deposit at the end of the call. We should make note of this imbalance since it will impact our selection of scoring metric, and the classification algorithm later on.
 
  <p align="center">
-<img src="images/pct_yes.png" height = "150">
+<img src="images/pct_yes.png" height = "220">
 </p>
 
 **Note**: Although the data does not seem to have any missing values, some of the categorical variables are 'unknown', which we will treat as a separate category. Additionally, there seem to be no observations for the month of Jan and Feb. In a real-world situation, <u>this would cause me to suspect that I do not have access to a complete dataset</u>.
@@ -81,13 +81,13 @@ We exclude the *duration* as a predictive variable, because this is not known be
 
 In the plot below, we look at the ROC curves using test data for all 4 classifiers. KNN underperforms, but the other three algorithms appear to have very similar AUC scores, with Logistic Regression being the highest. 
  <p align="center">
-<img src="images/roc_curves_all.png" height = "350">
+<img src="images/roc_curves_all.png" height = "320">
 </p>
 
 However, looking at the confusion matrices paints a different picture. KNN and SVM have a higher recall than precision, and Logistic Regression seems to mis-classify a lot more 'no' as a 'yes'. The well-understood avantages of decision trees, combined with these metrics, leads us to believe that for our business case, decision tree is the best classification algorithm.
 
  <p align="center">
-<img src="images/confusion_matrices_all.png" height = "250">
+<img src="images/confusion_matrices_all.png">
 </p>
 
 
