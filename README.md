@@ -7,11 +7,6 @@
 
  ### Exploratory Data Analysis
 
- #### Impact of customer finances
-  <p align="center">
-<img src="images/financial_factors.png" height = "220">
-</p>
-
 #### Impact of demographic factors
  <p align="center">
 <img src="images/demographic_factors.png" height = "250">
@@ -21,6 +16,12 @@
  <p align="center">
 <img src="images/previous_current_campaign.png" height = "250">
 </p>
+
+ #### Impact of timing of campaign
+  <p align="center">
+<img src="images/by_time_of_contact.png" height = "220">
+</p>
+
 
  ## Modeling
  Choose F-1 score as the 
