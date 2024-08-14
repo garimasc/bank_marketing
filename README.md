@@ -116,7 +116,7 @@ If we look the charts below, we can see that a customer that previously subscrib
 </p>
 For the current campaign, the chances of a customer subscribing to a deposit decreases as no. of calls increase. This aligns with our understanding of human behavior.
 
-## Decision Tree Excluding Soci-Economic Features
+## Decision Tree Excluding Socio-Economic Features
 
 In order to build a better understanding of a customer that will subscribe to the deposit, and to time our campaign efficiently, we build a decision tree without the socio-economic features that a campaign has no influence over. 
 
